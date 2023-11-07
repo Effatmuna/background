@@ -1,0 +1,64 @@
+:root{
+    --background:rgba(17, 25, 40, 0.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container {
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    font-weight: 600;
+}
+form {
+    background-color: var(--background);
+    padding: 40px;
+    border-radius: 20px;
+   
+
+}
+button{
+    background-color:var(--background);
+    border: none;
+}
+::placeholder{
+   padding: 30px;
+   color: rgba(238, 234, 230, 0.5);
+    
+}
+.mb-3{
+    border: none;
+}
+#user {
+    background-image: url(img/user\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: 15px 15px;
+    background-color: var(--background);
+    border: none;
+    padding: 10px 20px;
+
+
+
+}
+
+#lock {
+    background-image: url(img/lock.png);
+    background-repeat: no-repeat;
+    background-position: 15px 15px;
+    background-color:var(--background);
+    border: none;
+    padding: 10px 20px;
+
+}
